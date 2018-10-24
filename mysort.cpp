@@ -16,7 +16,7 @@ void Sort::insertionSort (int *target,int size)
     {
         key = target[i];
         j = i - 1;
-        while(j > 0 && target[j] > key)
+        while(j >= 0 && target[j] > key)
         {
             target[j + 1] = target[j];
             j = j - 1;
