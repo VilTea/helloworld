@@ -12,7 +12,7 @@ void Sort::insertionSort (int *target,int size)
 {
     int key;
     int j = 0;
-    for(int i = 2; i < size; i++)
+    for(int i = 1; i < size; i++)
     {
         key = target[i];
         j = i - 1;
